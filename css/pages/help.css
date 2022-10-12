@@ -31,6 +31,7 @@ button,
 a {
     user-select: none;
     -webkit-user-select: none;
+    
 }
 
 header {
@@ -38,6 +39,7 @@ header {
     top: 0;
     width: 100%;
     background: var(--color-theme);
+    border-radius: 0px 0px 30px 30px;
 }
 
 nav>ul {
@@ -117,6 +119,18 @@ footer p {
 main p {
     margin-bottom: 16px;
 }
+
+
+.item5{
+    padding: 1px;
+    background-color: #dc3545;
+    color: white;
+    margin: 2px;
+    border-radius: 30px;
+    width:max-content;
+    text-align: center;
+    }
+
 
 /* Media Query: Estilos a aplicar sólo en pantallas mayores a 400px */
 @media (min-width: 400px) {

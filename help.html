@@ -12,13 +12,13 @@
 <body>
     <header>
         <h1>
-            <span>Ayuda</span>
+            <img src="./img/Captura de pantalla 2022-10-03 222002.png" > <span>Clima App</span>
         </h1>
         <nav>
             <ul>
                 <li><a href="index.html">Clima</a></li>
                 <li><a href="add-city.html"> Agregar Ciudad</a></li>
-                <li class="current-page"><a href="#">Ayuda</a></li>
+                <li class="current-page"><a href="help.html">Ayuda</a></li>
             </ul>
         </nav>
     </header>
@@ -26,26 +26,30 @@
     <main>
         <h2>El Clima Ahora</h2>
             <p>
-                Esta App te permite consultar el clima de una ciudad en particular utilizando la <br />
-                API <a href="https://openweathermap.org/ap" target="_blank">OpenWeatherMap.</a>
+                Esta App te permite consultar el clima de una ciudad en particular utilizando la API <a href="https://openweathermap.org/ap" target="_blank">OpenWeatherMap.</a>
             </p>
 
             <p>
-                Para poder consultar el clima, primero deberá <a href="add-city.html">Agregar una ciudad</a> y luego<br />
-                selecionar la Ciudad en cuestión desde la página <a href="index.html">Clima.</a>
+                Para poder consultar el clima, primero deberá <a href="add-city.html">Agregar una ciudad</a> y luego selecionar la Ciudad en cuestión desde la página <a href="index.html">Clima.</a>
              </p>
 
+            
             <form>
+               
                 <label for="Nombre">Nombre:</label>
                 <input type="text" id="Nombre" name="Nombre" /> <br />
                 <label for="Email">Email:</label>
                 <input type="text" id="Email" name="Email" /> <br />
                 <label for="Mensaje">Mensaje:</label>
-                <input type="Mensaje" id="Mensaje" name="Mensaje" /> <br />
+                <textarea name="textarea" rows="10" cols="50"></textarea> <br />  <!--rows numeros de niveles visibles de control,cols La anchura visible del control de texto-->
 
                 <input type="button" value="Limpiar" />
                 <input type="button" value="Enviar" />
-            </form>
+            </div>
+         </form>
+         <div><p class="item5">Cuidad agregada con exito</p></div>
+        
+
 
     </main>
     <footer>
